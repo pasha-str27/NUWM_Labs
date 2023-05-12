@@ -1,0 +1,5 @@
+FROM python:3
+
+ADD service1.py /
+
+CMD [ "python", "./service1.py" ]
